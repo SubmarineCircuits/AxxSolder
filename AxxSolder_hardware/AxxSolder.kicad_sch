@@ -39715,7 +39715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:TSW-102-XX-YY-S"
+		(property "Footprint" "footprints:TSW-101-XX-YY-S"
 			(at 143.383 103.632 0)
 			(effects
 				(font
