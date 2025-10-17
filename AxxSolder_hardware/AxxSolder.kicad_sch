@@ -12381,6 +12381,18 @@
 		(uuid "9be40b7d-0d40-4537-8f4f-a9de35620898")
 	)
 	(junction
+		(at 26.67 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e264400-ccc8-4a99-bcf4-1c62ea9a0466")
+	)
+	(junction
+		(at 17.78 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a32ac208-5305-4636-b735-2dfa47f5e0e1")
+	)
+	(junction
 		(at 22.86 163.195)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -16041,6 +16053,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 189.23) (xy 26.67 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "836409f2-9dc4-47a0-aad6-aa5e683ab929")
+	)
+	(wire
+		(pts
 			(xy 16.51 163.195) (xy 22.86 163.195)
 		)
 		(stroke
@@ -18466,6 +18488,16 @@
 		)
 		(uuid "e144808c-7d64-44fe-bfe2-b38a04b14d2f")
 	)
+	(wire
+		(pts
+			(xy 17.78 189.23) (xy 17.78 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e15eec00-fb8d-45ae-b6d0-393795710ab4")
+	)
 	(polyline
 		(pts
 			(xy 204.47 15.24) (xy 127 15.24)
@@ -18919,6 +18951,16 @@
 			(type default)
 		)
 		(uuid "f183e487-9042-45c3-9e6b-9d38cdbb6c7a")
+	)
+	(wire
+		(pts
+			(xy 21.59 189.23) (xy 17.78 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f18fe692-b818-43ad-9b86-a1d626b2723f")
 	)
 	(wire
 		(pts
@@ -23520,6 +23562,135 @@
 		)
 	)
 	(symbol
+		(lib_name "TSW-102-07-T-S_1")
+		(lib_id "TSW-102-07-T-S:TSW-102-07-T-S")
+		(at 24.13 189.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "26d5b46d-71be-4a1a-bf9e-95de4d8c7b9a")
+		(property "Reference" "J9"
+			(at 23.114 187.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TSW-102-07-T-S"
+			(at 18.796 193.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "footprints:TSW-102-XX-YY-S"
+			(at 119.05 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://suddendocs.samtec.com/prints/tsw-xxx-xx-xxx-x-xx-xxx-mkt.pdf"
+			(at 219.05 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 24.13 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 419.05 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "200-TSW10207TS"
+			(at 519.05 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/TSW-102-07-T-S?qs=hzq9O0YpnZuE%252BS9CaLPVlQ%3D%3D"
+			(at 619.05 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SAMTEC"
+			(at 719.05 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TSW-102-07-T-S"
+			(at 819.05 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing comment" "Do Not Place"
+			(at 24.13 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9690db05-c950-48f1-b680-d57a01577ba1")
+		)
+		(pin "2"
+			(uuid "72a1c44d-4a2c-4fce-ba2e-2f34abaade9d")
+		)
+		(instances
+			(project "AxxSolder"
+				(path "/d71363c3-4d90-469c-a600-831e2a7cdaef"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 219.964 150.876 270)
 		(unit 1)
@@ -23923,7 +24094,7 @@
 	(symbol
 		(lib_name "MountingHole_3")
 		(lib_id "Mechanical:MountingHole")
-		(at 54.61 191.77 0)
+		(at 62.23 189.23 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -23932,7 +24103,7 @@
 		(fields_autoplaced yes)
 		(uuid "2bdef249-4081-460d-b854-f057e5024e2b")
 		(property "Reference" "H5"
-			(at 57.15 190.4999 0)
+			(at 64.77 187.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23941,7 +24112,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 57.15 193.0399 0)
+			(at 64.77 190.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23950,7 +24121,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 54.61 191.77 0)
+			(at 62.23 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23959,7 +24130,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 191.77 0)
+			(at 62.23 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23968,7 +24139,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 54.61 191.77 0)
+			(at 62.23 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39037,7 +39208,7 @@
 	(symbol
 		(lib_name "MountingHole_4")
 		(lib_id "Mechanical:MountingHole")
-		(at 62.23 191.77 0)
+		(at 69.85 189.23 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -39046,7 +39217,7 @@
 		(fields_autoplaced yes)
 		(uuid "c82adff9-43b4-43f2-8894-deba25a2acfc")
 		(property "Reference" "H6"
-			(at 64.77 190.4999 0)
+			(at 72.39 187.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39055,7 +39226,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 64.77 193.0399 0)
+			(at 72.39 190.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39064,7 +39235,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 62.23 191.77 0)
+			(at 69.85 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39073,7 +39244,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 191.77 0)
+			(at 69.85 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39082,7 +39253,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 62.23 191.77 0)
+			(at 69.85 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39168,7 +39339,7 @@
 	(symbol
 		(lib_name "MountingHole_2")
 		(lib_id "Mechanical:MountingHole")
-		(at 45.72 191.77 0)
+		(at 53.34 189.23 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -39177,7 +39348,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8d2be56-d1da-4795-9748-6013282f170a")
 		(property "Reference" "H4"
-			(at 48.26 190.4999 0)
+			(at 55.88 187.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39186,7 +39357,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 48.26 193.0399 0)
+			(at 55.88 190.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39195,7 +39366,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 45.72 191.77 0)
+			(at 53.34 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39204,7 +39375,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 191.77 0)
+			(at 53.34 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39213,7 +39384,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 45.72 191.77 0)
+			(at 53.34 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39544,7 +39715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:TSW-102-XX-YY-S"
 			(at 143.383 103.632 0)
 			(effects
 				(font
@@ -40033,7 +40204,7 @@
 	(symbol
 		(lib_name "MountingHole_1")
 		(lib_id "Mechanical:MountingHole")
-		(at 38.1 191.77 0)
+		(at 45.72 189.23 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -40042,7 +40213,7 @@
 		(fields_autoplaced yes)
 		(uuid "d696401b-4ea9-4283-ad5e-c872503d2e3d")
 		(property "Reference" "H3"
-			(at 40.64 190.4999 0)
+			(at 48.26 187.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40051,7 +40222,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 40.64 193.0399 0)
+			(at 48.26 190.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40060,7 +40231,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 38.1 191.77 0)
+			(at 45.72 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40069,7 +40240,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 191.77 0)
+			(at 45.72 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40078,7 +40249,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 38.1 191.77 0)
+			(at 45.72 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
